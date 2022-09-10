@@ -350,20 +350,20 @@ footer .icon li{
     align-items: center;
     justify-content: center;
 }
-footer p{
-position: absolute;
-bottom: 20px;
-right:60px;
+footer .co-ri{
+float: right;
 }
 @media(max-width:768px){
-    footer p{
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
+    footer .co-ri{
+        float: none;
+        margin: auto;
         width: 270px;
         }
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-block-start: 60px; 
+}
 .attribution a { color: hsl(228, 45%, 44%); }
