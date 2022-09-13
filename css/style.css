@@ -364,6 +364,14 @@ float: right;
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-block-start: 60px; 
+    margin-block-start: 80px; 
+    color: rgb(0, 255, 213);
+}
+.attribution .me{
+    color: white;
+    text-decoration: none;
+}
+.attribution .me:hover{
+    color: hsl(207, 93%, 58%);
 }
 .attribution a { color: hsl(228, 45%, 44%); }
